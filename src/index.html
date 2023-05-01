@@ -27,6 +27,43 @@
                         <span class="text-3xl ml-3"><span class="font-bold">Firefox</span> Browser</span>
                     </a>
                 </div>
+
+                <!-- Cuerpo de menú-->
+                <div>
+                    <!-- Botón responsive-->
+                    <input type="checkbox"
+                           name="hamburger"
+                           id="hamburger"
+                           class="peer"
+                           hidden>
+                    <label for="hamburger"
+                           class="peer-checked:hamburger block z-20 cursor-pointer md:hidden transition p-5 hover:bg-gray-200 dark:bg-slate-700 rounded">
+                        <div class="h-0.5 w-6 bg-black dark:bg-white transition"></div>
+                        <div class="mt-2 h-0.5 w-6 bg-black dark:bg-white transition"></div>
+                    </label>
+
+                    <!-- Cuerpo de los enlaces-->
+                    <div
+                         class="bg-white dark:bg-slate-900 dark:md:bg-slate-800 w-3/5 shadow-lg transition flex flex-col justify-between fixed inset-0 translate-x-[-100%] peer-checked:translate-x-0 md:w-auto md:static md:shadow-none md:translate-x-0 md:flex-row">
+                        <!-- Enlaces-->
+                        <div class="px-4 pt-32 flex flex-col md:flex-row md:items-center gap-3 md:p-0">
+                            <a class="tracking-wide cursor-pointer px-3 py-2 hover:bg-blue-500 rounded hover:text-white font-semibold text-lg transition-all duration-300 ease-in-out"
+                               href="">Características</a>
+                            <a class="tracking-wide cursor-pointer px-3 py-2 hover:bg-yellow-400 rounded hover:text-white font-semibold text-lg transition-all duration-300 ease-in-out"
+                               href="">Ayuda</a>
+                            <a class="tracking-wide cursor-pointer px-3 py-2 hover:bg-indigo-500 rounded hover:text-white font-semibold text-lg transition-all duration-300 ease-in-out"
+                               href="">Componentes</a>
+                            <a class="tracking-wide cursor-pointer px-3 py-2 hover:bg-pink-500 rounded hover:text-white font-semibold text-lg transition-all duration-300 ease-in-out"
+                               href="">Idiomas</a>
+                        </div>
+                        <!-- Botón -->
+                        <div
+                             class="block md:hidden border-t py-8 px-6 md:border-t-0 dark:border-slate-700 md:py-0 md:pr-0 md:pl-6">
+                            <a href=""
+                               class="block px-6 py-2 rounded text-center text-white text-lg font-semibold transition-all duration-300 ease-in-out bg-blue-500 hover:bg-blue-600">Descargar</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
