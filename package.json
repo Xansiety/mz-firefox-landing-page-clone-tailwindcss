@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build:css": "postcss ./src/main.css -o ./dist/main.css --watch"
+    "build:css": "postcss ./src/main.css -o ./dist/main.css --watch "
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",

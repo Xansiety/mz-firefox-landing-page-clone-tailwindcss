@@ -9,4 +9,8 @@
   .hamburger div:last-child {
     @apply -translate-y-1 -rotate-45;
   }
+
+  .btn-download {
+    @apply flex h-12 w-60 transform items-center rounded-lg bg-black py-8 pl-4 transition-all duration-300 ease-out hover:scale-110 focus:outline-none;
+  }
 }
